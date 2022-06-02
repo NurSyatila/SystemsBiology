@@ -1,0 +1,13 @@
+ENTREZID	SYMBOL	GENETYPE
+1588	CYP19A1	protein-coding
+3586	IL10	protein-coding
+3845	KRAS	protein-coding
+5241	PGR	protein-coding
+5743	PTGS2	protein-coding
+3066	HDAC2	protein-coding
+6356	CCL11	protein-coding
+9687	GREB1	protein-coding
+100048912	CDKN2B-AS1	ncRNA
+2100	ESR2	protein-coding
+2516	NR5A1	protein-coding
+3292	HSD17B1	protein-coding

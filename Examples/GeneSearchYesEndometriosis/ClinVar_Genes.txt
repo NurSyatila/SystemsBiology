@@ -1,0 +1,2 @@
+ENTREZID	SYMBOL	GENETYPE
+7124	TNF	protein-coding
