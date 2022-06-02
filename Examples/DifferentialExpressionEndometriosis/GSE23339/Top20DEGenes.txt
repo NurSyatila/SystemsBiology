@@ -1,0 +1,20 @@
+ID	logFC	Gene.ID	Gene.symbol	Gene.title	DE
+ILMN_1718285	2.91643616275667	3224	HOXC8	homeobox C8	Down
+ILMN_1799759	3.12729861384491	2719	GPC3	glypican 3	Down
+ILMN_1854469	2.00457259211865	80114	BICC1	BicC family RNA binding protein 1	Down
+ILMN_1694130	4.30044677243389	5010	CLDN11	claudin 11	Down
+ILMN_1757387	2.5014655580294	7345	UCHL1	ubiquitin C-terminal hydrolase L1	Down
+ILMN_1798984	2.01980344303157	51339	DACT1	dishevelled binding antagonist of beta catenin 1	Down
+ILMN_1751879	3.41219996139306	3290	HSD11B1	hydroxysteroid 11-beta dehydrogenase 1	Down
+ILMN_1804339	2.19675779226997	57172	CAMK1G	calcium/calmodulin dependent protein kinase IG	Down
+ILMN_1685433	4.70886574167776	1295	COL8A1	collagen type VIII alpha 1 chain	Down
+ILMN_1811370	2.63660914727078	3290	HSD11B1	hydroxysteroid 11-beta dehydrogenase 1	Down
+ILMN_1773006	2.59677328120466	2167	FABP4	fatty acid binding protein 4	Down
+ILMN_1655348	2.60373754685105	2825	GPR1	G protein-coupled receptor 1	Down
+ILMN_1714691	-2.25389614005961	3236	HOXD10	homeobox D10	Down
+ILMN_1746341	2.69519263085833	8324	FZD7	frizzled class receptor 7	Down
+ILMN_1716815	-2.55001746194094	634	CEACAM1	carcinoembryonic antigen related cell adhesion molecule 1	Down
+ILMN_1713347	3.16005082075133	10752	CHL1	cell adhesion molecule L1 like	Down
+ILMN_1800512	3.14208668719425	3162	HMOX1	heme oxygenase 1	Down
+ILMN_1706498	2.16564900270814	29940	DSE	dermatan sulfate epimerase	Down
+ILMN_1684401	2.84685293485697	2326	FMO1	flavin containing monooxygenase 1	Down

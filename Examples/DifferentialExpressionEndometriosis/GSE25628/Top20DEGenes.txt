@@ -1,0 +1,20 @@
+ID	logFC	Gene.ID	Gene.symbol	Gene.title	DE
+221683_s_at	-2.59392161645833	80184	CEP290	centrosomal protein 290	Down
+220342_x_at	-2.16919450933333	80267	EDEM3	ER degradation enhancing alpha-mannosidase like protein 3	Down
+207605_x_at	-2.170875329875	51351	ZNF117	zinc finger protein 117	Down
+219754_at	-2.55490874925	55285	RBM41	RNA binding motif protein 41	Down
+222286_at	-2.0840509933125	6619	SNAPC3	small nuclear RNA activating complex polypeptide 3	Down
+210042_s_at	-3.50605472295833	1522	CTSZ	cathepsin Z	Down
+218228_s_at	-2.80771577420833	80351	TNKS2	tankyrase 2	Down
+202840_at	-2.11219362495834	8148	TAF15	TATA-box binding protein associated factor 15	Down
+219679_s_at	-2.10126464772917	51322	WAC	WW domain containing adaptor with coiled-coil	Down
+219850_s_at	-3.86001533225	26298	EHF	ETS homologous factor	Down
+214483_s_at	-2.52702379772917	27236	ARFIP1	ADP ribosylation factor interacting protein 1	Down
+211488_s_at	-2.40222133791667	3696	ITGB8	integrin subunit beta 8	Down
+208003_s_at	-2.17397443283333	10725	NFAT5	nuclear factor of activated T-cells 5	Down
+204243_at	-2.27177951920834	6018	RLF	rearranged L-myc fusion	Down
+212249_at	-2.64771031095834	5295	PIK3R1	phosphoinositide-3-kinase regulatory subunit 1	Down
+201691_s_at	-2.0860618605625	7163	TPD52	tumor protein D52	Down
+212926_at	-2.23796297764583	23137	SMC5	structural maintenance of chromosomes 5	Down
+211022_s_at	-2.29756411545833	546	ATRX	ATRX, chromatin remodeler	Down
+209349_at	-2.53168657629167	10111	RAD50	RAD50 double strand break repair protein	Down

@@ -1,0 +1,43 @@
+--  GSE25628 :  Endometriosis transcription profiling  --
+** Summary **
+--GroupA: donor: patient
+--GroupB: donor: healthy donor
+|       | groupA-groupB|
+|:------|-------------:|
+|Down   |           187|
+|NotSig |         19071|
+|Up     |            83|
+
+
+--  GSE23339 :  Gene expression profiles of endometriosis  --
+** Summary **
+--GroupA: disease state: endometrioma
+--GroupB: disease state: control
+|       | groupA-groupB|
+|:------|-------------:|
+|Down   |           138|
+|NotSig |         22399|
+|Up     |            96|
+
+
+--  GSE7846 :  Differentially expressed genes in HEECs of eutopic endometrium of patients with endometriosis compared with control  --
+** No protein-coding genes (DEG) identified **
+
+--GroupA: endothelium from a patient with endometriosis
+--GroupB: endothelium from normal control
+--  GSE6364 :  Gene Profiling of Endometrium Reveals Progesterone Resistance and Candidate Genetic Loci in Women with Endometriosis  --
+** No protein-coding genes (DEG) identified **
+
+--GroupA: Proliferative Phase Endometriosis | Early Secretory Phase Endometriosis | Mid Secretory Phase Endometriosis
+--GroupB: Proliferative Phase Normal | Early Secretory Phase Normal | Mid Secretory Phase Normal
+--  GSE7305 :  Human endometriosis vs normal endometrium study - transcriptional profiling  --
+** Summary **
+--GroupA: Endometrium/Ovary-Disease 1 | Endometrium/Ovary-Disease 2 | Endometrium/Ovary-Disease 3 | Endometrium/Ovary-Disease 4 | Endometrium/Ovary-Disease 5 | Endometrium/Ovary-Disease 6 | Endometrium/Ovary-Disease 7 | Endometrium/Ovary-Disease 8 | Endometrium/Ovary-Disease 9 | Endometrium/Ovary-Disease 10
+--GroupB: Endometrium-Normal 1 | Endometrium-Normal 2 | Endometrium-Normal 3 | Endometrium-Normal 4 | Endometrium-Normal 5 | Endometrium-Normal 6 | Endometrium-Normal 7 | Endometrium-Normal 8 | Endometrium-Normal 9 | Endometrium-Normal 10
+|       | groupA-groupB|
+|:------|-------------:|
+|Down   |           265|
+|NotSig |         37346|
+|Up     |           267|
+
+
