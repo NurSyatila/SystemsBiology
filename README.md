@@ -1,15 +1,15 @@
 # SystemsBiology
 
-##Part 1: Gene Search (GeneSearch.r)  
-###Description: A user-guided R script to search for disease-associated genes from publicly available data sets: ClinVar, DISEASES, GTR, GWAS Catalog, MedGen, OMIM, PheGenI, and DisGeNET  
-###User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)  
-###Options: To include/exclude DisGeNET search (Email and Password to DisGeNET account are required)  
-###Output: A directory named GeneSearch containing:   
+## Part 1: Gene Search (GeneSearch.r)  
+### Description: A user-guided R script to search for disease-associated genes from publicly available data sets: ClinVar, DISEASES, GTR, GWAS Catalog, MedGen, OMIM, PheGenI, and DisGeNET  
+### User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)  
+### Options: To include/exclude DisGeNET search (Email and Password to DisGeNET account are required)  
+### Output: A directory named GeneSearch containing:   
   a) <Dataset>Summary.csv: A summary for individual data set search  
   b) <Dataset>_Genes.txt: A list of genes (symbols, entrez IDs, and gene type) for individual data set search  
   c) <Dataset>_PCGenes.txt: A list of Entrez IDs for protein-coding genes (separated by new lines) for individual data set search   
   d) GeneSearch.pdf: A graphical summary of protein-coding genes in bar chart  
-###Functions:   
+### Functions:   
   a) check_libraries: Check required libraries and install if not available   
   b) get PCGenes: Extract protein-coding genes based on annotation in the 'org.Hs.eg.db' library   
   c) get_clinvar: Retrieve disease-associated genes from ClinVar  
@@ -22,10 +22,10 @@
   h) get_omim: Retrieve disease-associated genes from OMIM    
   i) get_phegeni: Retrieve disease-associated genes from PheGenI    
   
-##Part 2: Differential Expression (DifferentialExpression.r)  
-###Description: A user-guided R script to retrieve disease-associated genes (differentially expressed genes) from Gene Expression data sets retrieved from GEO DataSets.  
-###User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)  
-###Output: A directory named DifferentialExpression containing:  
+## Part 2: Differential Expression (DifferentialExpression.r)  
+### Description: A user-guided R script to retrieve disease-associated genes (differentially expressed genes) from Gene Expression data sets retrieved from GEO DataSets.  
+### User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)  
+### Output: A directory named DifferentialExpression containing:  
   a) GSESummary.csv: A summary of retrieved GEO data sets - GDS Accession, GPL Platform ID, GSE Accession, Series Title, Subset Info  
   b) GSESummaryFiltered.csv: A summary of retrieved GEO data sets that contain samples derived from disease state (samples with annotation under 'disease state')  
   c) GSESummary.txt: A summary of gene expression data analysis, sample groupings and gene search for individual data sets.  
@@ -43,17 +43,17 @@
           ~ Expression value distribution (density vs. intensity)  
           ~ Mean variance trend (residual standard deviation vs. average log expression)  
           ~ Heat map for top 20 differentially expressed genes  
-  ###Functions:  
+  ### Functions:  
    a) check_libraries: Check required libraries and install if not available  
    b) get_meshterms: Retrieve MeSH terms  
    c) get_gse_datasets: Retrieve GEO Data sets from NCBI GEO DataSet  
    d) analyse_deg: Analyse gene expression data and save results for a given GEO Series accession  
    e) get_deg: Determine sample groupings from metadata and use analyse_deg function to obtain differentially expressed genes for a given GEO Series accession     
       
-##Part 3: Functional Enrichment (FunctionalEnrichment.r)  
-###Description: A user-guided R script to get protein-protein interaction (PPI) network and perform functional enrichment analysis / over-representation analysis for a set of genes.  
-###User Input: A filename containing Entrez identifiers (separated by new line)  
-###Output: A directory named FunctionalEnrichment containing:  
+## Part 3: Functional Enrichment (FunctionalEnrichment.r)  
+### Description: A user-guided R script to get protein-protein interaction (PPI) network and perform functional enrichment analysis / over-representation analysis for a set of genes.  
+### User Input: A filename containing Entrez identifiers (separated by new line)  
+### Output: A directory named FunctionalEnrichment containing:  
   a) PPINetworkAnalysis.txt: A summary of functional enrichment analysis for a given gene list and identified gene clusters  
   b) STRING_PPI_Network.pdf: A graphical summary of STRING protein-protein interaction network and functional enrichment analysis 
   c) FilteredGenes.txt: A list of genes from STRING protein-protein interaction network in a tabulated form  
@@ -66,7 +66,7 @@
         - Pathview directory containing mapped KEGG pathway for top 5 enriched pathways  
   e) GeneClusters directory containing:
         - Individual cluster file with a list of genes
-  ###Functions:  
+  ### Functions:  
    a) check_libraries: Check required libraries and install if not available  
    b) get_ppi_plot: Plot a graphical network using igraph for a given PPI network    
    c) get_kegg_enrichment: Perform KEGG enrichment analysis for a given gene list     
