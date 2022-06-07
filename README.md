@@ -1,22 +1,22 @@
 # SystemsBiology
 
-Part 1: Gene Search (GeneSearch.r)
-Description: A user-guided R script to search for disease-associated genes from publicly available data sets: ClinVar, DISEASES, GTR, GWAS Catalog, MedGen, OMIM, PheGenI, and DisGeNET
-User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)
-Options: To include/exclude DisGeNET search (Email and Password to DisGeNET account are required)
-Output: A directory named GeneSearch containing: 
-  a) <Dataset>Summary.csv: A summary for individual data set search
-  b) <Dataset>_Genes.txt: A list of genes (symbols, entrez IDs, and gene type) for individual data set search
-  c) <Dataset>_PCGenes.txt: A list of Entrez IDs for protein-coding genes (separated by new lines) for individual data set search 
-  d) GeneSearch.pdf: A graphical summary of protein-coding genes in bar chart
-Functions:
-  a) check_libraries: Check libraries required for all functions in GeneSearch.r. Install packages if not available. Parameters: 
-      ~ pack_cran:  a list of packages stored in CRAN repository
-      ~ pack_bioc: a list of packages under Bioconductor
-      ~ pack_github:  a list of packages from GitHub 
-  b) get PCGenes: Extract protein-coding genes based on annotation in the 'org.Hs.eg.db' library. Parameters: 
-      ~ genelist: A list of genes (Entrez IDs or symbols)
-      ~ gene_file: A filename to store the list of genes
+Part 1: Gene Search (GeneSearch.r)  
+Description: A user-guided R script to search for disease-associated genes from publicly available data sets: ClinVar, DISEASES, GTR, GWAS Catalog, MedGen, OMIM, PheGenI, and DisGeNET  
+User Input: A disease or keywords separated by '|' (e.g. colorectal cancer|colorectal carcinoma)  
+Options: To include/exclude DisGeNET search (Email and Password to DisGeNET account are required)  
+Output: A directory named GeneSearch containing:   
+  a) <Dataset>Summary.csv: A summary for individual data set search  
+  b) <Dataset>_Genes.txt: A list of genes (symbols, entrez IDs, and gene type) for individual data set search  
+  c) <Dataset>_PCGenes.txt: A list of Entrez IDs for protein-coding genes (separated by new lines) for individual data set search   
+  d) GeneSearch.pdf: A graphical summary of protein-coding genes in bar chart  
+Functions:  
+  a) check_libraries: Check libraries required for all functions in GeneSearch.r. Install packages if not available. Parameters:   
+      ~ pack_cran:  a list of packages stored in CRAN repository  
+      ~ pack_bioc: a list of packages under Bioconductor  
+      ~ pack_github:  a list of packages from GitHub   
+  b) get PCGenes: Extract protein-coding genes based on annotation in the 'org.Hs.eg.db' library. Parameters:   
+      ~ genelist: A list of genes (Entrez IDs or symbols)  
+      ~ gene_file: A filename to store the list of genes  
       ~ pcgene_file: A filename to store protein-coding genes
       ~ key_type: type of key for gene in genelist ('ENTREZID' or 'SYMBOL')
   c) get_clinvar: Retrieve disease-associated genes from ClinVar. Parameter:
