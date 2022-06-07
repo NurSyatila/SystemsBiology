@@ -10,17 +10,17 @@
   - <Dataset>_PCGenes.txt: A list of Entrez IDs for protein-coding genes (separated by new lines) for individual data set search   
   - GeneSearch.pdf: A graphical summary of protein-coding genes in bar chart  
 ##### Functions:   
-  a) check_libraries: Check required libraries and install if not available   
-  b) get PCGenes: Extract protein-coding genes based on annotation in the 'org.Hs.eg.db' library   
-  c) get_clinvar: Retrieve disease-associated genes from ClinVar  
-  d) get_diseasesdb: Retrieve disease-associated genes from DISEASES database    
-  c) get_meshterms: Retrieve MeSH terms    
-  d) get_disgenet : Retrieve disease-associated genes from DisGeNET. User email and password to DisGeNET account are required.   
-  e) get_gtr: Retrieve disease-associated genes from GTR    
-  f) get_gwascatalog: Retrieve disease-associated genes from GWAS Catalog    
-  g) get_medgen: Retrieve disease-associated genes from MedGen    
-  h) get_omim: Retrieve disease-associated genes from OMIM    
-  i) get_phegeni: Retrieve disease-associated genes from PheGenI    
+  - check_libraries: Check required libraries and install if not available   
+  - get PCGenes: Extract protein-coding genes based on annotation in the 'org.Hs.eg.db' library   
+  - get_clinvar: Retrieve disease-associated genes from ClinVar  
+  - get_diseasesdb: Retrieve disease-associated genes from DISEASES database    
+  - get_meshterms: Retrieve MeSH terms    
+  - get_disgenet : Retrieve disease-associated genes from DisGeNET. User email and password to DisGeNET account are required.   
+  - get_gtr: Retrieve disease-associated genes from GTR    
+  - get_gwascatalog: Retrieve disease-associated genes from GWAS Catalog    
+  - get_medgen: Retrieve disease-associated genes from MedGen    
+  - get_omim: Retrieve disease-associated genes from OMIM    
+  - get_phegeni: Retrieve disease-associated genes from PheGenI    
   
 ## Part 2: Differential Expression (DifferentialExpression.r)  
 ##### Description: A user-guided R script to retrieve disease-associated genes (differentially expressed genes) from Gene Expression data sets retrieved from GEO DataSets.  
@@ -59,13 +59,13 @@
   - FilteredGenes.txt: A list of genes from STRING protein-protein interaction network in a tabulated form  
   - Top_PPI_genes.txt: A list of top 20 or 10 genes from STRING PPI network (with highest number of interactions)
   - FilteredGenes directory containing:  
-        - Functional enrichment results (CSV format) and plots (PDF)
-        - Pathview directory containing mapped KEGG pathway for top 5 enriched pathways
+      - Functional enrichment results (CSV format) and plots (PDF)
+      - Pathview directory containing mapped KEGG pathway for top 5 enriched pathways
   - TopGenes directory containing:  
-        - Functional enrichment results (CSV format) and plots (PDF)  
-        - Pathview directory containing mapped KEGG pathway for top 5 enriched pathways  
+      - Functional enrichment results (CSV format) and plots (PDF)  
+      - Pathview directory containing mapped KEGG pathway for top 5 enriched pathways  
   - GeneClusters directory containing:
-        - Individual cluster file with a list of genes
+      - Individual cluster file with a list of genes
   ##### Functions:  
    - check_libraries: Check required libraries and install if not available  
    - get_ppi_plot: Plot a graphical network using igraph for a given PPI network    
